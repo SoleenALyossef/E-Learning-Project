@@ -1,0 +1,460 @@
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #f7f7f8;
+}
+
+.hero-nav{
+    background-color:#ff9500;
+    color:white;
+    text-align: center;
+    margin: 12px 24px 0;
+}
+.fa-sun {
+    display: none;
+    color: orange;
+}
+.clicked .fa-sun {
+    display: block;
+}
+.clicked .fa-moon {
+    display: none;
+    
+}
+.btn-darkmode{
+    /* border: 1px solid orange; */
+    border-radius: 14px 2px;
+}
+
+.dark-colors ,.dark-colors footer {
+    
+    background-color: #141313 !important;
+    color: #999 !important;
+}
+.dark-colors .free-plan{
+    background-color: #f7c14d;
+}
+.dark-colors a{
+ color: #dfdddd !important;
+}
+.dark-colors .card{
+    --bs-card-bg: #423838;
+    color: #ffffffc7;
+}
+.dark-colors .bg-white {
+    background-color:#41414163 !important;
+    color: white !important;
+}
+
+.dark-colors .btn-SignUp  {
+color:#ff9500;
+}
+.dark-colors .line{
+    /* background-color:rgb(255 239 220 / 68%); */
+    border-radius: 17px;
+    text-align: center;
+}
+.dark-colors .accordion-body ,.dark-colors .btn-Questions {
+    background-color: #2c2c2cd1;
+    color: #dfdddd;  
+}
+.dark-colors .accordion-body p {
+    color: #000000;
+    
+}
+.dark-colors  .accordion-body  .link {
+    background-color: #f7c14d !important;
+  
+}
+.dark-colors a span {
+    color: #000000;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+li{
+   list-style: none;
+}
+.btn:hover ,.btn-View:hover{
+    box-shadow: 0 12px 10px rgba(15,23,42,0.12);
+    font-weight: bold;
+   
+}
+div .hero {
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;  
+}
+@keyframes myAnimation {
+  0%   { transform: translateY(100%); opacity: 0; }
+  10%  { transform: translateY(0%); opacity: 1; }
+  90%  { transform: translateY(0%); opacity: 1; }
+  100% { transform: translateY(-100%); opacity: 0; }
+}
+.btn-Login{
+    background-color: rgba(255, 149, 0, 1);
+    color: white;
+}
+.btn-SignUp:hover{
+   color: rgba(255, 149, 0, 1);
+   border-radius: 15%;
+}
+.navbar .active, .navbar a:hover,.nav-item:active ,.btn-darkmode:hover{
+    background-color: rgba(172, 172, 172, 0.212);
+     color: rgba(255, 149, 0, 1) !important;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.btn-Courses{
+    background-color: rgba(255, 149, 0, 1);
+    color: white;
+}
+.btn-Courses:hover{
+   background-color: rgba(255, 149, 0, 0.918);
+     color: white;
+   
+
+    
+}
+.btn-Pricing:hover{
+    background-color: rgba(255, 149, 0, 1);
+}
+.swiper-horizontal{
+&.swiper-rtl .swiper-button-next, &.swiper-rtl~.swiper-button-next, &~.swiper-button-prev, .swiper-button-prev{
+    left: var(--swiper-navigation-sides-offset, 7.5%);
+    right: auto;
+    color: rgba(92, 87, 87, 0.897);
+}
+}
+.swiper-horizontal {
+&.swiper-rtl .swiper-button-prev, &.swiper-rtl~.swiper-button-prev, &~.swiper-button-next, .swiper-button-next{
+    right: var(--swiper-navigation-sides-offset, 7.5%);
+    left: auto;
+    color: rgba(92, 87, 87, 0.897);
+}
+}
+:root {
+    --swiper-navigation-size: 27px;
+}
+.imgelectron{
+    width: 38px;
+    margin-top: -8px;
+}
+.line{
+    border-right: 3px solid rgb(211 205 205 / 25%);
+    height: 40px;
+    width: 12%;
+}
+.linecard{
+    border-bottom: 3px solid rgb(211 205 205 / 25%);
+
+}
+.btn-View{
+    background-color: white;
+}
+.btn-View:hover{
+    background-color: white;
+}
+.number{
+    margin-left:70%;
+    font-size: 385%;
+}
+.btn-link{
+    margin-left:77%;
+    border:1px solid rgba(241, 241, 243, 1);
+    background-color: rgba(252, 252, 253, 1);
+}
+.fa-rotate-270 {
+    transform: rotate(314deg);
+}
+.btn-get{
+    width: 98%;
+    background-color: rgba(247, 247, 248, 1);
+}
+.btn-read{
+    background-color:rgba(247, 247, 248, 1);
+}
+.btn-read:hover{
+    background-color:rgba(247, 247, 248, 1);
+    box-shadow: 3px 2px 4px 4px rgb(211, 211, 211);
+}
+.card{
+    border: none;
+    border-radius: 26px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 -2px 23px rgba(0, 0, 0, 0.1);
+}
+.button-box{
+    width: 73%;
+    margin: 35px auto;
+    border: 1px solid #e5e7eb;
+}
+.toggle-btn{
+    position: relative;
+    border: 0;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    padding: 13px 21px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+#btnn{
+   left: 5px;
+    top: 5px;
+    position: absolute;
+    width: 48%;
+    height: calc(100% - 10px);
+    border-radius: 10px;
+    transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(255, 149, 0, 1);
+}
+.btn-Started ,.btn-Started:hover{
+    background-color:rgba(255, 149, 0, 1);
+    border-radius: 0px;
+    color: white;
+}
+.free-plan {
+background-color: rgba(255, 249, 240, 1);
+border-radius: 9px;
+border: 1px solid rgba(255, 234, 204, 1);
+width: 95%;
+}
+
+.backgroundblack .play-btn {
+width: 80px;
+height: 80px;
+background: rgba(255, 149, 0, 0.774);
+}
+.backgroundblack .play-btn:hover {
+transform: translate(-50%, -50%) scale(1.1);
+background: rgb(255, 149, 0);
+}
+.backgroundblack .play-btn i {
+font-size: 32px;
+color: white;
+margin-left: 5px;
+}
+.accordion-button::after {
+    display: none !important;
+}
+.accordion-button .fa-plus {
+    display: inline-block;
+}
+.accordion-button .fa-xmark {
+    display: none;
+}
+.accordion-button:not(.collapsed) .fa-plus {
+    display: none;
+}
+.accordion-button:not(.collapsed) .fa-xmark {
+    display: inline-block;
+}
+.accordion-button .icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #f1f4f9;
+    border-radius: 50%;
+    margin-left: auto;
+    transition: 0.3s;
+    flex-shrink: 0;
+}
+.accordion-button:not(.collapsed) .icon-wrapper {
+    background: #ff9500;
+    color: white;
+}
+.accordion-button .icon-wrapper i {
+    font-size: 1.2rem;
+    color: #1e293b;
+    transition: 0.3s;
+}
+.accordion-button:not(.collapsed) .icon-wrapper i {
+    color: white;
+}
+.link-btn {
+    background: #f1f4f9;
+    border-radius: 12px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1e293b;
+}
+.link-btn:hover {
+    background: #e2e8f0;
+    transform: translateX(5px);
+}
+.link-btn .arrow-circle {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.link-btn .arrow-circle i {
+    color: #ff9500;
+    font-size: 1.2rem;
+}
+.accordion-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px !important;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.accordion-button {
+    background: white !important;
+    color: #1a1a2e;
+    font-weight: 600;
+    padding: 18px 24px;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    font-size: 1rem;
+    gap: 10px;
+}
+.accordion-button:hover {
+    background: #fafafa !important;
+}
+.accordion-body {
+    padding: 20px 24px;
+    color: #475569;
+    line-height: 1.8;
+    border-top: 1px solid #e2e8f0;
+}
+.accordion-body ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.accordion-body ul li {
+    list-style: disc;
+    color: #475569;
+    margin-bottom: 5px;
+}
+.accordion-body ul li::marker {
+    color: #ff9500;
+}
+      
+/* Pricing Cards */
+.pricing-card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border-radius: 16px;
+}
+.pricing-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+.pricing-card.pro {
+border: 2px solid rgba(255, 149, 0, 0.3);
+position: relative;
+}
+.backgroundicon{
+background-color: rosybrown;
+width: 20px;
+height: 12px;
+}
+.feature-list li {
+padding: 13px 7px;
+border-bottom: 1px solid rgba(229, 231, 235, 0.3);
+
+}
+.fa-check{
+color: rgb(35, 53, 86); 
+background-color: rgba(255, 244, 229, 1); 
+padding: 12px 8px; 
+width: 32px;
+border-radius: 7px;
+}
+.fa-xmark{
+padding: 12px 8px; 
+width: 32px;
+border-radius: 7px;
+  
+}
+footer a{
+    color: black;
+    transition: all 0.5s ease;
+}
+footer a:hover,.dark-colors footer a:hover {
+    color:rgba(255, 149, 0, 1) !important;
+    transition: all 0.4s cubic-bezier(0.85, 0.59, 0.04, 0.35)   !important;
+}
+ .my-form-wrapper {
+    background: #dcdcdc;
+    padding: 35px
+}
+.showHidePass {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 12px;
+    top: 38px
+}
+.pass-element {
+    padding-right: 54px;
+}
+/* ..............login..................................... */
+.form-control:focus{
+    border-color: #d19b20;
+    box-shadow: 0 0 0 .25rem rgb(253 216 132);
+}
+/* ..........  courses   .......      */
+.numbercourse{
+    font-size: 300%;
+}
+.linecourse{
+     border-bottom: 1px solid rgb(211 205 205 / 25%);
+}
+.lineCurriculum{
+    border-right: 1px solid rgb(211 205 205 / 25%);
+    height: 93%;
+    width: 126%;
+}
+@media (max-width: 768px) {
+    .lineCurriculum {
+        padding: 8px 15px;
+        border-bottom: 1px solid rgb(211 205 205 / 25%);
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .lineCurriculum {
+        height: auto;
+        width: 100%;
+        border-right: 1px solid rgb(211 205 205 / 25%);
+        padding: 15px 10px;
+    }
+}
+.hovercurriculm {
+    color: black;
+}
+.hovercurriculm:hover{
+  color: #ffa600;
+  transform:scale(1.02);
+  transition: transform 0.5s ease;
+}
+:root, [data-bs-theme=light]{
+    --bs-body-bg: #fff;
+}
+
+/* .bg-shape-img {
+    right: 20%;
+    bottom: 13%;
+    width: 32%;
+    height: 8%;
+} */
